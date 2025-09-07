@@ -152,7 +152,7 @@ int loadFromFilePeople(PersonP head, const char* fileName) {
 	FILE* fp = fopen(fileName, "r");
 	if (fp == NULL) {
 		printf("ERROR! Could not open the file!\n");
-		return EXIT_FAILURE;
+		exit(EXIT_FAILURE);
 	}
 	char id[MAX_ID_LEN], fname[MAX_NAME_LEN], lname[MAX_NAME_LEN];
 	while (fscanf(fp, "%s %s %s", id, fname, lname) == 3) {
