@@ -1,0 +1,9 @@
+Napisati program koji iz datoteke čita imena studenata. Nakon što se pročita ime jednog studenta dodijeli
+mu se ocjena iz predmeta (slučajna vrijednost od 1 do 5) i sprema se u vezanu listu sortirano prema 
+ocjenama od najveće prema najnižoj. Ispisati listu.
+
+Slučajno generirati jednu ocjenu i izbrisati sve studente koji imaju tu ocjenu. Ispisati listu. – ocjena 
+dovoljan
+
+Izmijeniti gornji zadatak na način da se student ne sortira samo po ocjenama, nego i po prezimenu i 
+imenu. – ocjena dobar.
