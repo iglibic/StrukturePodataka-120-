@@ -1,0 +1,14 @@
+Napisati program koji iz datoteke (ime se unosi u programu) čita podatke o ljudima i kaficima 
+u kojima su ti ljudi bili. Izraditi vezanu listu, način ovjesti o ocjeni, ispisati je, te za traženi kafic 
+ispisati koliko ga je ljudi posjetilo i koji su to ljudi.
+
+Za ocjenu 2 - napraviti vezanu listu u kojoj su elementi složeni po nazivu kaficima.
+
+Za ocjenu 3 – napraviti vezanu listu kafica, a svaki kafic ima dodatnu listu ljudi koji su ga posjetili.
+
+Za ocjenu 4 – nadopuniti zadatak za ocjenu 3 tako da kafici i osobe budu sortirani po abecedi.
+
+Za ocjenu 5 – nadopuniti zadatak za ocjenu 4 na način da se pronadje kafic koji ima najviše 
+posjetitelja i postaviti ga na početak veze liste kafica.
+
+Na kraju programa potrebno je osloboditi svu dinamički rezerviranu memoriju (za sve ocjene).
