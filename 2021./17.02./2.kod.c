@@ -75,7 +75,7 @@ int loadFromFile(PersonP head, const char* fileName) {
     FILE* fp = fopen(fileName, "r");
     if (fp == NULL) {
         printf("ERROR! Could not open the file!\n");
-        return FILE_NOT_OPENED;
+        exit(EXIT_FAILURE);
     }
 
     char fname[MAX], lname[MAX], bname[MAX];
