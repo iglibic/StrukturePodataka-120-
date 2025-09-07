@@ -1,0 +1,15 @@
+CocaCola 12
+Fanta 10
+Pivo 15
+Pizza 20
+Pomfrit 25
+Cokolada 18
+Keks 15
+Lollipop 10
+Banana 32
+Kruska 14
+Sapun 7
+SredstvoZaCiscenje 9
+Mis 6
+Tastatura 12
+Lampa 6
