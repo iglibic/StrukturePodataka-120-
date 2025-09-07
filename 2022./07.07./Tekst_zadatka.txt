@@ -1,0 +1,15 @@
+Za ocjenu 2:
+Napisati program koji iz datoteke čita prezime i ime studenta i svakom studentu se dodjeljuje jedninstven broj (ID) u opsegu od 100 do 199 (voditi računa da broj bude jedinstven, tj. da se ne ponavlja). Od dobivenih podataka (ID-a, prezimena i imena) se gradi lista koja je sortirana po ID-u. Pri tome koristi sortirani unos, a ne sortiranje liste. Ispisati listu.
+Iz liste ukloniti sve one osobe čije se ime ponavlja u listi, tako da ostane samo jedna osoba tog imena. Npr. ukoliko u listi postoji 3 Ivana, nakon brisanja ostaje samo jedan. Ispisati novu listu.
+
+Za ocjenu 3:
+Unijeti neki broj i sve one članove liste čiji je ID djeljiv s tim brojem postaviti na kraj liste.
+
+Uvjeti za bilo koju ocjenu:
+
+Koristiti funkcije;
+Provjeriti uspješnost dinamičkih alokacija memorije (i obaviti miran prekid u slučaju neuspješne alokacije);
+Provjeriti uspješnost otvaranja datoteka (i obaviti miran prekid programa u slučaju neuspješnog otvaranja);
+Zatvoriti datoteke nakon rada s njima;
+Na kraju programa očistiti svu dinamički alociranu memoriju;
+Zabranjeno koristiti globalne varijable i funkciju exit0.
