@@ -43,7 +43,7 @@ int main() {
     }
     head->next = NULL;
 
-    loadFromFile(head, "STUDENTI2.txt");
+    loadFromFile(head, "Studenti1.txt");
 
     printf("Pocetna lista: \n");
     printList(head->next);
