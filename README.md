@@ -1,6 +1,6 @@
 Rješenja većine prethodnih ispita iz Struktura podataka (120) – FESB, Split
 
-Ovaj repozitorij sadrži rješenja svih pronađenih prethodnih ispita iz kolegija Strukture podataka (120) na Fakultetu elektrotehnike, strojarstva i brodogradnje (FESB) u Splitu. Pripremljen je u akademskoj godini 2024./2025.
+Ovaj repozitorij sadrži rješenja (za ocjene 2 i/ili 3) svih pronađenih prethodnih ispita iz kolegija Strukture podataka (120) na Fakultetu elektrotehnike, strojarstva i brodogradnje (FESB) u Splitu. Pripremljen je u akademskoj godini 2024./2025.
 
 Repozitorij uključuje:
 - Tekst svakog zadatka, te datum roka
