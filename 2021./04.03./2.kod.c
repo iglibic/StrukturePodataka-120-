@@ -80,7 +80,7 @@ int loadFromFile(ArtikalP head, const char* fileName) {
     FILE* fp = fopen(fileName, "r");
     if (fp == NULL) {
         printf("ERROR! Could not open the file!\n");
-        exit(FILE_NOT_OPENED)   ;
+        exit(FILE_NOT_OPENED);
     }
     char category[MAX], name[MAX];
     int amount = 0;
