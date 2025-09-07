@@ -9,4 +9,4 @@ Repozitorij uključuje:
 
 Ako imaš prijedlog, rješenje ili poboljšanje, slobodno ga pošalji putem pull requesta ili otvori issue! Svaka pomoć i prijedlog su dobrodošli kako bi repozitorij bio što korisniji svima.
 
-Napomena: Sva rješenja su informativnog karaktera. Preporučuje se samostalno rješavanje zadataka radi boljeg razumijevanja gradiva.
+Napomena: Sva rješenja služe kao pomoć pri učenju. Preporučuje se samostalno rješavanje zadataka radi boljeg razumijevanja gradiva.
