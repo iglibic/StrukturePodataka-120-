@@ -1,0 +1,11 @@
+Napisati program koji generira 30 slučajnih brojeva u opsegu od 0 do 100 i od generiranih 
+brojeva gradi vezanu listu. Ispisati listu.
+
+Izbaciti iz liste sve one brojeve koji su djeljivi s 3 ili imaju znamenku 3 i rezultatnu listu 
+upisati u datoteku u sortiranom redoslijedu od najmanjeg do najvećeg broja (sama lista se
+ne smije sortirati prije upisa u datoteku). – za ocjenu dovoljan
+
+Izmijeniti gornji zadatak na način da u početnoj vezanoj listi nema duplih vrijednosti. – za 
+ocjenu dobar
+
+Na kraju programa potrebno je osloboditi svu dinamički rezerviranu memoriju.
