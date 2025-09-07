@@ -42,7 +42,7 @@ int main() {
 
     printList(head->next);
 
-    printf("\nMicanje vrijednosti djeljivih sa tri i vrijednosti koje sadrze broj tri...\n");
+    printf("\nMicanje vrijednosti djeljivih sa tri i vrijednosti koje sadrze broj tri...\n\n");
 
     removeThree(head);
 
