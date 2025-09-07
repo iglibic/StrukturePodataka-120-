@@ -1,0 +1,8 @@
+Napisi program koji iz datoteke (ime se unosi u programu) čita kategoriju, naziv i količinu artikala 
+u skladištu. Izgraditi vezanu listu, način ovjesti o ocjeni, a nakon toga iz druge datoteke (ime se unosi 
+u programu), koja predstavlja račun, čitaju podaci i umanjuje stanja na skladištu. Ispisati 
+kategoriju, a zatim i nazive artikala čija je količina pala ispod 5.
+
+Za ocjenu 2 - napraviti vezanu listu u kojoj su elementi složeni po kategorijama.
+
+Za ocjenu 3 - napraviti vezanu listu kategorija, a svaka kategorija ima dodatnu listu artikala koji joj pripadaju.
