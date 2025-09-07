@@ -159,7 +159,7 @@ int loadFromFile(CafeP head, const char* fileName) {
     FILE* fp = fopen(fileName, "r");
     if (fp == NULL) {
         printf("ERROR! Could not allocate memmory!\n");
-        return EXIT_FAILURE;
+        exit(EXIT_FAILURE);
     }
     char cafename[MAX], fname[MAX], lname[MAX];
     while (fscanf(fp, "%s %s %s", fname, lname, cafename) == 3) {
