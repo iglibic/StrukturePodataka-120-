@@ -1,0 +1,45 @@
+Napisati program koji iz datoteke "studenti.txt" čita prezime i
+ime studenta kao i njegov ID, te kreira vezanu listu sortiranu
+po prezimenu i imenu studenta.
+Nakon toga iz datoteka "predmet1.txt" i "predmet2.txt" se čita
+ID studenta, ocjena i datum polaganja predmeta. Pročitane
+podatke je potrebno unijeti u postojeću vezanu listu. Ispisati
+listu.
+Student je definirana strukturom:
+	#define MAX_NAME_LENGTH (32)
+	struct _student;
+	typedef struct _student* StudentP;
+	typedef struct _student {
+		char ID[10];
+		char firstName[MAX_NAME_LENGTH];
+		char lastName[MAX_NAME_LENGTH];
+		int grade[2];
+		Date date[2];
+	} Student;
+Datum je definiran strukturom:
+	struct _date;
+	typedef struct _date {
+		int year;
+		int month;
+		int day;
+	} Date;
+
+OCJENA 2: Unijeti jedan datum i izbrisati iz liste sve one osobe 
+koje su položile bilo koji od predmeta na taj datum. Ispisati novu
+vezanu listu.
+
+OCJENA 3: Pronaći za svaki predmet osobe koje su ga položile na
+najraniji datum  i prebaciti ih na kraj liste. Pri tome treba 
+voditi računa da je više osoba položilo svaki pojedini predmet na
+taj datum. Ispisati novu vezanu listu.
+
+UVJETI ZA BILO KOJU OCJENU:
+	- Koristiti funkcije;
+	- Provjeriti uspješnost dinamičkih alokacija memorije(i
+		obaviti miran prekid programa u slučaju neuspješne
+		alokacije);
+	- Provjeriti uspješnost otvaranja datoteka(i obaviti miran
+		prekid programa u slučaju neuspješnog otvaranja);
+	- Zatvoriti datoteke nakon rada s njima;
+	- Na kraju programa osloboditi svu dinamički alociranu
+	  memoriju.
