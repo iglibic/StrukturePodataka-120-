@@ -1,0 +1,12 @@
+Voce 1 10
+Povrce 2 15
+Mlijecni 5 20
+Meso 10 50
+Pecivo 1 5
+Slatko 3 25
+Gazirano 2 10
+Alkoholno 5 30
+Suho 2 15
+Riba 8 40
+Kruh 1 6
+VoceTropsko 3 12
