@@ -1,0 +1,36 @@
+Napisati program koji stvara dvije vezane liste, svaku od 20 elemenata, na način da se za svaki element 
+liste generiraju dvije vrijednosti. Prva je vrijednost u opsegu od 100–130 (i u listi se ne smiju ponavljati 
+vrijednosti), a druga je prioritet u opsegu od 1–5 (bit će ponavljanja). Elementi u listi moraju biti 
+sortirani prvo po prioritetu, pa po vrijednosti.
+
+Ocjena 2:
+Ispisati vezanu listu i pronaći vrijednosti koje se ponavljaju u obje liste (uspoređuje se po value 
+elementu), te ispisati te vrijednosti uz njihov prioritet i nakon toga ih izbrisati iz liste.
+Ispisati nove liste.
+
+Ocjena 3:
+Napraviti novu vezanu listu u koju će se prebaciti sve te vrijednosti koje se ponavljaju (bez nove 
+alokacije) i to sortirane po vrijednosti i potom po prioritetu.
+Ispisati sve tri liste.
+
+Uvjeti za bilo koju ocjenu:
+
+Koristiti funkcije;
+Provjeriti uspješnost dinamičkih alokacija memorije (i obaviti miran prekid programa u 
+slučaju neuspješne alokacije);
+Provjeriti uspješnost otvaranja datoteka (i obaviti miran prekid programa u slučaju 
+neuspješnog otvaranja);
+Zatvoriti datoteke nakon rada s njima;
+Na kraju programa očistiti svu dinamički alociranu memoriju;
+Zabranjeno koristiti globalne varijable i funkciju exit().
+
+U rješavanju zadatka se može koristiti struktura:
+
+struct _data;
+typedef struct _data Data;
+typedef struct _data* dataPosition;
+struct _data {
+    int value;
+    int priority;
+    dataPosition next;
+};
