@@ -1,4 +1,4 @@
-# Strukture podataka - Računarstvo (120)
+## Strukture podataka - Računarstvo (120)
 
 Rješenja većine prethodnih ispita iz Struktura podataka (120) – FESB, Split
 
